@@ -15,7 +15,7 @@
 </head>
 <body>
 <!-- NAV BAR-->
-    <nav id="navbar" class="navbar navbar-expand-md navbar-light bg-dark fixed-top">
+    <nav id="navbar" class="navbar navbar-expand-md navbar-light fixed-top" style="background-color:#fff">
         <!--Logo-->
         <a class="navbar-brand" href="#home-page">
      <img src="assets/images/logo1.jpg" alt="Logo for The Pantry" title="Restaurant Logo">
@@ -103,18 +103,18 @@
 <section id="menu-page" class="container">
     <h2>Our Menus</h2>
     <div class="row">
+<!-- Lunch Modal Trigger -->
         <div id="lunch-menu-button" class="col-12 col-md-6 col-lg-4">
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        <button data-toggle="modal" data-target="#lunchModal">
             <img src="assets/images/lunch-menu-edit.jpg" alt="A picture of a dish from the lunch menu">Lunch Menu
             </button>
         </div>       
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- Lunch Modal -->
+<div class="modal fade" id="lunchModal" tabindex="-1" role="dialog" aria-labelledby="lunchModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="lunchModalLabel">Lunch Menu</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -124,18 +124,61 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
 </div>
+<!-- Dinner Modal Trigger -->
         <div id="dinner-menu-button" class="col-12 col-md-6 col-lg-4">
-        <img src="assets/images/dinner-menu-edit.jpg" alt="A picture of a dish from the evening menu">
+        <button type="button" data-toggle="modal" data-target="#dinnerModal">
+        <img src="assets/images/dinner-menu-edit.jpg" alt="A picture of a dish from the evening menu">Dinner Menu
+        </button>
         </div>
-        <div id="dessert-menu-button" class="col-12 col-md-6 col-lg-4">
-        <img src="assets/images/dessert-menu-edit.jpg" alt="A picture of a dish from the dessert menu">
+<!-- Dinner Modal -->
+<div class="modal fade" id="dinnerModal" tabindex="-1" role="dialog" aria-labelledby="dinnerModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="dinnerModalLabel">Dinner</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+     </div>
+        <div class="modal-body">
+            <img class="img-fluid" src="assets/images/dinner-menu-img.jpg">
         </div>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
     </div>
+  </div>
+</div>
+<!--Dessert Modal Trigger-->
+        <div id="dessert-menu-button" class="col-12 col-md-6 col-lg-4">
+        <button type="button" data-toggle="modal" data-target="#dessertModal">
+        <img src="assets/images/dessert-menu-edit.jpg" alt="A picture of a dish from the dessert menu">Dessert Menu
+        </button>
+        </div>
+<!-- Dessert Modal -->
+<div class="modal fade" id="dessertModal" tabindex="-1" role="dialog" aria-labelledby="dessertModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="dessertModalLabel">Dessert</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+     </div>
+        <div class="modal-body">
+            <img class="img-fluid" src="assets/images/dessert-menu-img.jpg">
+        </div>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 </section>
 <!--Review Page-->
 <section id="review-page" class="container">

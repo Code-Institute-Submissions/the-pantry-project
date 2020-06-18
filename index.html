@@ -15,7 +15,7 @@
 </head>
 <body>
 <!-- NAV BAR-->
-    <nav id="navbar" class="navbar navbar-expand-sm fixed-top">
+    <nav id="navbar" class="navbar navbar-expand-md fixed-top">
         <!--Logo-->
         <a class="navbar-brand" href="#home-page">
      <img src="assets/images/logo1.jpg" alt="Logo for The Pantry" title="Restaurant Logo">
@@ -37,7 +37,7 @@
             </div>
     </nav>
 <!--Home Page-->
-    <section id="home-page" class="container-fluid">
+    <section id="home-page" class="container">
         <div id="hero-image">
         <!--booking button over hero-image-->
             <img src="#" alt="image of the inside decor of the restaurant">
@@ -45,7 +45,7 @@
         </div>
     </section>
    <!--About Page-->
-<section id="about-page" class="container-fluid">
+<section id="about-page" class="container">
     <div class="row">
         <div class="col-12 col-lg-6">
             <h2>About Us</h2>
@@ -54,18 +54,18 @@
             The pantry offers a contemporary and modern approach to classic dishes to add an air of comfort and nostaliga in an up to date experience for all.
             With a function room available for hire and an 80 seater restaurant there is plenty of space to enjoy bistro style cooking in comfort.</p>
         </div>
-    <div class="col-12 d-lg-none">
+    <div class="col-12 d-lg-none overflow-auto">
 <!--Banner for small devices-->
     <img src="assets/images/hero-banner.jpg">
     </div>
-    <div class="d-sm-none d-lg-block col-lg-6">
+    <div class="d-none d-lg-block col-lg-6 overflow-auto">
 <!--Larger picture from banner for larger devices-->
     <img src="assets/images/hero-image.jpg">
     </div>
     </div>
 </section>
 <!--Booking Page-->
-<section id="booking-page" class="container-fluid">
+<section id="booking-page" class="container">
     <h2>Booking a Table</h2>
     <div>
         <form action="https://formdump.codeinstitute.net/" method="post" target="_blank">
@@ -100,24 +100,48 @@
         </article>
 </section>
 <!--Menu Page-->
-<section id="menu-page" class="container-fluid">
+<section id="menu-page" class="container">
     <h2>Our Menus</h2>
     <div class="row">
         <div id="lunch-menu-button" class="col-12 col-md-6 col-lg-4">
-        <img src="#" alt="A picture of a dish from the lunch menu">
-        </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            <img src="assets/images/lunch-menu-edit.jpg" alt="A picture of a dish from the lunch menu">Lunch Menu
+            </button>
+        </div>       
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img class="img-fluid" src="assets/images/lunch-menu-img.jpg">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
         <div id="dinner-menu-button" class="col-12 col-md-6 col-lg-4">
-        <img src="#" alt="A picture of a dish from the evening menu">
+        <img src="assets/images/dinner-menu-edit.jpg" alt="A picture of a dish from the evening menu">
         </div>
         <div id="dessert-menu-button" class="col-12 col-md-6 col-lg-4">
-        <img src="#" alt="A picture of a dish from the dessert menu">
+        <img src="assets/images/dessert-menu-edit.jpg" alt="A picture of a dish from the dessert menu">
         </div>
     </div>
 </section>
 <!--Review Page-->
-<section id="review-page" class="container-fluid">
+<section id="review-page" class="container">
     <h2>Reviews</h2>
-    <div class="row">
+    <!--Reviews-->
+        <div class="row">
         <div class="col-12 col-md-6 col-lg-4">
             <p>"Wonderful atmosphere, full of life, great food, a place you can go to really enjoy your time out."</p>
             <p>Sam Plinth</p>
@@ -156,8 +180,9 @@
     </div>
 </section>
 <!-- Contact Page-->
-<section id="contact-page" class="container-fluid">
+<section id="contact-page" class="container">
     <h2>Contact Us</h2>
+    <!--Contact Details-->
     <div>
         <p>
         <img src="#">
@@ -174,6 +199,7 @@
         NG3 2FF
         </p>
     </div>
+    <!--Contact form-->
     <div>
         <form action="https://formdump.codeinstitute.net/" method="post" target="_blank">
             <label for="name">Name:</label>

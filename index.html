@@ -15,16 +15,13 @@
 </head>
 <body>
 <!-- NAV BAR-->
-<div class="row">
+<div class="container">
     <nav id="navbar" class="navbar navbar-expand-md navbar-light fixed-top" style="background-color:#fff">
         <!--Logo-->
-        <div class="col-8 col-md-3 col-lg-3 offset-lg-1 col-xl-1 offset-xl-3">
         <a class="navbar-brand" href="#home-page">
-     <img src="assets/images/logo2.jpg" class="ml-auto" alt="Logo for The Pantry" title="Restaurant Logo">
+     <img src="assets/images/logo2.jpg"  alt="Logo for The Pantry" title="Restaurant Logo">
         </a>
-        </div>
         <!--Dropdown button-->
-        <div class="col-3 col-md-7 offset-md-2 col-lg-7 offset-lg-1 col-xl-6 offset-xl-2 ml-auto">
         <button id="drop-button" class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -39,7 +36,6 @@
                     <li class="nav-item"><a class="nav-link" href="#contact-page"> Contact </a></li>
                 </ul>
             </div>
-        </div>
     </nav>
 </div>
 <!--Home Page-->
@@ -76,16 +72,26 @@
     <div class="row">
         <div class="col-12 col-md-6 col-lg-4 offset-lg-1">
         <form action="https://formdump.codeinstitute.net/" method="post" target="_blank">
+            <div class="form-group">
             <label for="name">Name:</label>
                 <input type="text" id="name" placeholder="Your name" name="name" required>
+            </div>
+            <div class="form-group">
             <label for="number">Telephone Number:</label>
                 <input type="tel" id="number" name="number" placeholder="Contact Number" required>
+            </div>
+            <div class="form-group">
             <label for="guests">Number of Guests:</label>
                 <input type="number" id="guests" name="guests" min="1" placeholder="Tell us how many guests" required>
+            </div>
+            <div class="form-group">
             <label for="date">Date:</label>
                 <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-group">
             <label for="time">Time:</label>
                 <input type="time" id="time" name="time" required>
+            </div>
             <input type="submit" id="submit" value="Book Now!">
         </form>
         </div>
@@ -93,12 +99,15 @@
         <article>
             <img src="#"> 
             Address:
+            <br>
             138 Pym Street
             St.Anns
             Nottingham
             NG3 2FF
+            <br>
             <img src="#">
             Opening Times:
+            <br>
             Mon - Fri 
             11am-11pm
             Sat
@@ -236,14 +245,19 @@
 <section id="contact-page" class="container">
     <h2>Contact Us</h2>
     <!--Contact Details-->
-    <div>
+    <div class="row">
+    <div class="col-12 col-md-6 col-lg-4 offset-lg-1">
         <p>
         <img src="#">
         Phone Number:
         01159 111111
+        </p>
+        <p>
         <img src="#">
         Email Address:
-        John_Smith@Thepantry.com
+        John_Smith@ThePantry.com
+        </p>
+        <p>
         <img src="#">
         Address:
         138 Pym Street
@@ -253,21 +267,32 @@
         </p>
     </div>
     <!--Contact form-->
-    <div>
+    <div class="col-12 col-md-6 col-lg-4 offset-lg-1">
         <form action="https://formdump.codeinstitute.net/" method="post" target="_blank">
+         <div class="form-group">
             <label for="name">Name:</label>
                 <input type="text" id="name-message" placeholder="Your name" name="name" required>
+                </div>
+        <div class="form-group">
             <label for="number">Telephone Number:</label>
                 <input type="tel" id="number-message" name="number" placeholder="Contact Number" required>
+                </div>
+         <div class="form-group">
             <label for="email">Number of Guests:</label>
                 <input type="email" id="email" name="email" placeholder="johndoe@domain.com" required>
+                </div>
+         <div class="form-group">
             <label for="message">Message:</label>
                 <input type="text" id="message" name="message" placeholder="Please write a message or review for us...">
+                </div>
+         <div class="form-group form-check">
             <label for="news">Yes i'd like to receive email offers!</label>
-                <input type="checkbox" id="news" name="news"> 
+                <input type="checkbox" id="news" name="news">
+                </div>
             <input type="submit" id="submit-message" value="Submit">
         </form>
     </div>
+</div>
 </section>
 <!--Bootstrap Java-->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

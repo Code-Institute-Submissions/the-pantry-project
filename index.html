@@ -15,110 +15,111 @@
 </head>
 <body>
 <!-- NAV BAR-->
-    <nav id="navbar" class="navbar navbar-expand-md navbar-light fixed-top" style="background-color:#fff">
+  <nav id="navbar" class="navbar navbar-expand-md navbar-light fixed-top" style="background-color:#fff">
     <div class="container">
-        <!--Logo-->
-        <a class="navbar-brand" href="#home-page">
-     <img src="assets/images/logo2.jpg"  alt="Logo for The Pantry" title="Restaurant Logo">
-        </a>
-        <!--Dropdown button-->
-        <button id="drop-button" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-            <!--Navigation menu-->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul id="nav-menu" class="navbar-nav mr-auto">
-                    <li class="nav-item"><a class="nav-link" href="#home-page"> Home </a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about-page"> About </a></li>
-                    <li class="nav-item"><a class="nav-link" href="#booking-page"> Booking </a></li>
-                    <li class="nav-item"><a class="nav-link" href="#menu-page"> Menus </a></li>
-                    <li class="nav-item"><a class="nav-link" href="#review-page"> Reviews </a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact-page"> Contact </a></li>
-                </ul>
-            </div>
+<!--Logo-->
+      <a href="#home-page">
+        <img src="assets/images/logo2.jpg"  alt="Logo for The Pantry" title="Restaurant Logo">
+      </a>
+<!--Dropdown button-->
+      <button id="drop-button" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+<!--Navigation menu-->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul id="nav-menu" class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#home-page"> Home </a></li>
+          <li class="nav-item"><a class="nav-link" href="#about-page"> About </a></li>
+          <li class="nav-item"><a class="nav-link" href="#booking-page"> Booking </a></li>
+          <li class="nav-item"><a class="nav-link" href="#menu-page"> Menus </a></li>
+          <li class="nav-item"><a class="nav-link" href="#review-page"> Reviews </a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact-page"> Contact </a></li>
+        </ul>
+      </div>
     </div>
-    </nav>
+  </nav>
 <!--Home Page-->
-    <section id="home-page" class="container">
-        <div id="hero-image" class="overflow-hidden">
-        <!--booking button over hero-image-->
-            <img src="assets/images/hero-home-edit.jpg" alt="image of the inside decor of the restaurant">
-            <button id="book-button"><a href="#booking-page">Book A Table!</a></button>
-        </div>
-        This is to test fonts and see if they apply.
-    </section>
+  <section id="home-page" class="container">
+    <div id="hero-image" class="overflow-hidden">
+<!--booking button over hero-image-->
+      <img src="assets/images/hero-home-edit.jpg" alt="image of the inside decor of the restaurant">
+      <button id="book-button"><a href="#booking-page">Book A Table!</a></button>
+    </div>
+  </section>
 <!--About Page-->
-<section id="about-page" class="container">
-<div class="row">
-        <div class="col-12 col-lg-6">
-            <h2>About Us</h2>
-            <p>The Pantry is a small family run business established deep into the history of Nottingham.
-            The family owned business, run by the Johnsens for 15 years, has been a staple of good food, quality entertainment and atomsphere. A light vibrant interior that welcomes one and all as if they were part of the family themselves.
-            The pantry offers a contemporary and modern approach to classic dishes to add an air of comfort and nostaliga in an up to date experience for all.
-            With a function room available for hire and an 80 seater restaurant there is plenty of space to enjoy bistro style cooking in comfort.</p>
-        </div>
-    <!--Banner for small devices-->
-        <div class="col-12 d-lg-none overflow-hidden">
-            <img src="assets/images/hero-banner.jpg">
-        </div>
-    <!--Larger picture from banner for larger devices-->
-        <div class="d-none d-lg-block col-lg-6 overflow-auto">
-            <img src="assets/images/hero-image-edit.jpg" class="img-fluid">
-        </div>
-</div>
-</section>
+  <section id="about-page" class="container">
+    <div class="row">
+      <div class="col-12 col-lg-6">
+        <h2>About Us</h2>
+        <p>
+          The Pantry is a small family run business established deep into the history of Nottingham.
+          The family owned business, run by the Johnsens for 15 years, has been a staple of good food, quality entertainment and atomsphere. A light vibrant interior that welcomes one and all as if they were part of the family themselves.
+          The pantry offers a contemporary and modern approach to classic dishes to add an air of comfort and nostaliga in an up to date experience for all.
+          With a function room available for hire and an 80 seater restaurant there is plenty of space to enjoy bistro style cooking in comfort.
+        </p>
+      </div>
+<!--Banner for small devices-->
+      <div class="col-12 d-lg-none overflow-hidden">
+        <img src="assets/images/hero-banner.jpg">
+      </div>
+<!--Larger picture from banner for larger devices-->
+      <div class="d-none d-lg-block col-lg-6 overflow-auto">
+        <img src="assets/images/hero-image-edit.jpg" class="img-fluid">
+      </div>
+    </div>
+  </section>
 <!--Booking Page-->
-<section id="booking-page" class="container">
+  <section id="booking-page" class="container">
     <h2>Booking a Table</h2>
     <div class="row">
-        <div class="col-12 col-md-6 col-lg-4 offset-lg-1">
+      <div class="col-12 col-md-6 col-lg-4 offset-lg-1">
         <form action="https://formdump.codeinstitute.net/" method="post" target="_blank">
-            <div class="form-group">
+          <div class="form-group">
             <label for="name">Name:</label>
-                <input type="text" id="name" placeholder="Your name" name="name" required>
-            </div>
-            <div class="form-group">
+            <input type="text" id="name" placeholder="Your name" name="name" required>
+          </div>
+          <div class="form-group">
             <label for="number">Telephone Number:</label>
-                <input type="tel" id="number" name="number" placeholder="Contact Number" required>
-            </div>
-            <div class="form-group">
+            <input type="tel" id="number" name="number" placeholder="Contact Number" required>
+          </div>
+          <div class="form-group">
             <label for="guests">Number of Guests:</label>
-                <input type="number" id="guests" name="guests" min="1" placeholder="Tell us how many guests" required>
-            </div>
-            <div class="form-group">
+            <input type="number" id="guests" name="guests" min="1" placeholder="Tell us how many guests" required>
+          </div>
+          <div class="form-group">
             <label for="date">Date:</label>
-                <input type="date" id="date" name="date" required>
-            </div>
-            <div class="form-group">
+            <input type="date" id="date" name="date" required>
+          </div>
+          <div class="form-group">
             <label for="time">Time:</label>
-                <input type="time" id="time" name="time" required>
-            </div>
-            <input type="submit" id="submit" value="Book Now!">
+            <input type="time" id="time" name="time" required>
+          </div>
+          <input type="submit" id="submit" value="Book Now!">
         </form>
-        </div>
+    </div>
     <div class="col-12 col-md-6 col-lg-4 offset-lg-1">
-        <article>
-            <i class="fas fa-map-marker-alt"></i> 
-            Address:
-            <br>
-            138 Pym Street
-            St.Anns
-            Nottingham
-            NG3 2FF
-            <br>
-            <i class="far fa-clock"></i>
-            Opening Times:
-            <br>
-            Mon - Fri 
-            11am-11pm
-            Sat
-            11am-12pm
-            Sun
-            Closed
-        </article>
+        <p>
+          <i class="fas fa-map-marker-alt"></i> 
+          Address:
+          <br>
+          138 Pym Street
+          St.Anns
+          Nottingham
+          NG3 2FF
+          <br>
+          <i class="far fa-clock"></i>
+          Opening Times:
+          <br>
+          Mon - Fri 
+          11am-11pm
+          Sat
+          11am-12pm
+          Sun
+          Closed
+        </p>
+      </div>
     </div>
-    </div>
-</section>
+  </section>
 <!--Menu Page-->
 <section id="menu-page" class="container">
     <h2>Our Menus</h2>

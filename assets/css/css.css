@@ -12,3 +12,31 @@ section{
 body{
     font-family: 'Open Sans Condensed', sans-serif;
 }
+.nav-link{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+#home-page{
+  height: 100%;
+  position: relative;
+}
+#blackbox{
+  background: #000;
+}
+#hero-image{
+  opacity: 0.4;
+}
+#book-button{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: 'Open sans' , sans-serif;
+  font-weight: 600;
+}
+#bb-link{
+  text-decoration: none;
+  color: #fff;
+}

@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans+Condensed:wght@300&family=Open+Sans:ital,wght@0,600;1,300&display=swap');
 
-body{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-family: 'Kaushan Script', cursive;
-}
+/*General styling rules*/
 html {
 	scroll-behavior: smooth;
 }
@@ -13,4 +8,7 @@ section{
     padding-top: 100px;
     min-height: 100vh;
     height: 100%;
+}
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
 }

@@ -1,32 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans+Condensed:wght@300&family=Open+Sans:ital,wght@0,600;1,300&display=swap');
 
 /*General styling rules*/
-html {
-	scroll-behavior: smooth;
-}
-section{
-    padding-top: 100px;
+section {
     min-height: 100vh;
     height: 100%;
 }
-body{
+body {
     font-family: 'Open Sans Condensed', sans-serif;
 }
-.nav-link{
+.nav-link {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
 }
-#home-page{
+#home-page {
   height: 100%;
   position: relative;
 }
-#blackbox{
+#blackbox {
   background: #000;
 }
-#hero-image{
+#hero-image {
   opacity: 0.4;
 }
-#book-button{
+#book-button {
   margin: 0;
   position: absolute;
   top: 50%;
@@ -37,7 +33,7 @@ body{
   font-weight: 600;
   font-size: 30px;
 }
-#bb-link{
+#bb-link {
   text-decoration: none;
   color: #fff;
 }

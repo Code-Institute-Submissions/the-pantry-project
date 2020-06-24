@@ -43,7 +43,20 @@ body {
   font-weight: 600;
   font-size: 30px;
 }
+#book-button{
+  height: 80px;
+  width: 250px;
+  background: transparent;
+  border: 2px solid #fff;
+  text-decoration: none;
+  border-radius: 6px;
+}
 #bb-link {
   text-decoration: none;
-  color: #fff;
+  padding: 5px, 10px;
+    color: #fff;
+}
+#book-button-container :hover{
+  background-color: #04724d;
+  transition: 0.4s;
 }

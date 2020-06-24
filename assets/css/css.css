@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans+Condensed:wght@300&family=Open+Sans:ital,wght@0,600;1,300&display=swap');
 
 /*General styling rules*/
-section {
+section{
     min-height: 100vh;
     height: 100%;
+    padding-top: 100px;
 }
 body {
     font-family: 'Open Sans Condensed', sans-serif;

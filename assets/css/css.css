@@ -88,3 +88,21 @@ p {
     line-height: 35px;
   }
 }
+/*Booking*/
+.form-box{
+  text-align: center;
+}
+form{
+  width: 320px;
+  height: 100%;
+}
+.add-open{
+  text-align: center;
+  font-size: 24px;
+  line-height: 35px;
+  letter-spacing: 2px;
+}
+i{
+  font-size: 40px;
+  color: #04724d;
+}

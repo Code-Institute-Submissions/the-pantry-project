@@ -72,11 +72,7 @@ hr {
   border: 2px solid #fff;
   text-decoration: none;
   border-radius: 6px;
-}
-#bb-link {
-  text-decoration: none;
-  padding: 5px, 10px;
-    color: #fff;
+  color: #fff;
 }
 #book-button-container :hover{
   background-color: #04724d;

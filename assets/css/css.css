@@ -131,7 +131,8 @@ input[type=text],
 input[type=number],
 input[type=tel],
 input[type=date],
-input[type=time], select {
+input[type=time],
+input[type=email], select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -141,18 +142,14 @@ input[type=time], select {
   box-sizing: border-box;
 }
 
-input[type=text]:focus {
+input[type=text]:focus,
+input[type=tel]:focus,
+input[type=number]:focus,
+input[type=email]:focus {
   background-color: #04724d;
   color: #fff;
 }
-input[type=number]:focus {
-  background-color: #04724d;
-  color: #fff;
-}
-input[type=tel]:focus {
-  background-color: #04724d;
-  color: #fff;
-}
+
 input[type=submit] {
   width: 100%;
   background-color: #fff;
@@ -209,4 +206,8 @@ p.card-text{
 .card-img{
   max-height: 150px;
   max-width: 150px;
+}
+i{
+color:#04724d;
+font-size:20px;
 }

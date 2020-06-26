@@ -168,7 +168,7 @@ input[type=submit] {
   color: #04724d;
   padding: 14px 20px;
   margin: 8px 0;
-  border: 2px, solid, #04724d;
+  border: 2px solid #04724d;
   border-radius: 4px;
   cursor: pointer;
 }
@@ -194,7 +194,7 @@ form {
   font-size: 20px;
 }
 .menu-img{
-  border: 2px, solid, #fff;
+  border: 2px solid #fff;
   border-radius: 20px;
 }
 @media (max-width:768px){

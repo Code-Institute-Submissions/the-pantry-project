@@ -84,7 +84,7 @@ hr {
 #about-banner{
   padding-bottom: 10px;
 }
-p {
+p.text{
   text-align: center;
   font-size: 24px;
   line-height: 50px;
@@ -99,7 +99,7 @@ p {
   .page-title{
     padding-bottom: 35px;
   }
-  p{
+  p.text{
     line-height: 35px;
   }
 }
@@ -197,4 +197,16 @@ form {
   #dinner-menu-button{
     padding-top:10px;
   }
+}
+/*Reviews*/
+p.card-text{
+  color: #04724d;
+  font-family: 'Open Sans', sans-serif;
+}
+.rev-card{
+  padding-top: 10px;
+}
+.card-img{
+  max-height: 150px;
+  max-width: 150px;
 }

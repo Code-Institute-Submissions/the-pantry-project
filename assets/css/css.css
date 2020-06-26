@@ -18,6 +18,21 @@ hr {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
 }
+.social-links{
+  display: flex;
+  justify-content: center;
+}
+.soc-icon{
+  color: #04724d;
+  font-size: 20px;
+  padding-right: 25px;
+}
+#foot-title{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color:#04724d;
+  padding-right: 25px;
+}
 /* Home-page*/
 #home-page {
   height: 100%;

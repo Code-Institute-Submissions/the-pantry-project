@@ -21,6 +21,7 @@ hr {
 .social-links{
   display: flex;
   justify-content: center;
+  padding-top:10px;
 }
 .soc-icon{
   color: #04724d;

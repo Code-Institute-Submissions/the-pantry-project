@@ -7,7 +7,7 @@
   * Design:
     1. Font
     2. Color Scheme
-    3. Logo
+    3. Logo and Icons
     4. Wireframing
   * Technologies Used:
     1. Languages
@@ -63,5 +63,17 @@ The choice of Open sans and Kaushan in styling was bolstered by the fact that my
   Supplementary - #000
   Supplementary - #fff
 
-  The primary color chosen is a dark forest green, this color makes up the majority of the color styling for the page.
-  
+  The primary color chosen is a dark forest green, this color makes up the majority of the color styling for the page, i chose this colour as I feel it was pleasing visually as well as creating a nice contrast against white elements and images on the page.
+  The majority of elements feature some element of a white background as I wanted the colors to stand out from one another and add an air of professionalism to the project. I felt that the white also helped to create the best contrast for the logo image to help it really stand out against the white background.
+  Supplementary colors were then used for the fonts and backgrounds to give visual impact, and give an ease to the user when reading information.
+  I felt these were all complimentary colors and fit the themeing of the project aim to give a very natural feeling to the page to work with the natural imagery of the restaurant interiors.
+
+* Logo and Icons:
+  All the icons I used in the project are from font awesome. I felt that the block style of social media icons were a better fit in the footer of the page as they fit into the grid style layout of the page.
+  I felt that having icons in places was more appropriate than images as they give the visual impact of an image without the necessity to add more files to the repository. The icons are also very easily styled and sized to fit into the project nicely.
+
+  The logo for the page I created myself using Gimp and a png file included in my credited section. The image is supposed to represent the roof of a house or farm style barn to incorporate the over-all theme of restaurant into the brand image.
+  The fonts and colouring used in the logo are all incorporated into the color scheme of the page and I just felt it added to the project to give it a branded identity.
+
+* Wireframes:
+  All of my wireframes 

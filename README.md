@@ -28,6 +28,8 @@
     1. Clone
     2. Fork
     3. GitHub Pages
+  * Credits
+  * Closing Notes
 
 # UX - (User Experience)
 ### Aim of the Project:
@@ -118,16 +120,6 @@ The images that I used for this project were from a mixture of sources. The imag
 <br>
 Links to the images used in the project can all be found in the credits section. The images in their raw form weren't optimal for the project so I used Gimp which is an image editing software.
 Gimp helped me use the images in a more optimal way by resizing images I used and helping me to create the logo.
-(https://ya-webdesign.com/explore/roof-clipart-silhouette/)
-(http://clipart-library.com/clipart/1841383.htm)
-(https://www.independent.co.uk/life-style/food-and-drink/unhealthiest-chain-restaurant-desserts-britain-puddings-wetherspoon-toby-carvery-harvester-a7489171.html)
-https://www.seriouseats.com/recipes/2014/12/the-best-slow-cooked-bolognese-sauce-recipe.html
-https://www.foodtolove.co.nz/recipes/roast-pork-belly-with-caramelised-apples-13622
-https://suitcasemag.com/travel/explore/londons-best-outdoor-restaurants/#jp-carousel-80754
-https://gemlowes.com/2018/07/04/the-ivy-chelsea-garden/
-https://aboutmanchester.co.uk/tripadvisor-fails-to-stop-highest-ranked-hotels-being-boosted-by-fake-reviews-which-finds/
-https://www.facebook.com/ProfilePictures/
-https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click
 
 # Technologies Used:
 ## Languages:
@@ -194,7 +186,32 @@ The Pantry is a ficticious restaurant and the page was developed using GitPod an
 
 When deploying my project I used Github Pages.
   1. Steps Made:
-    * Navigated to my respository
-    * In the top right corner of the page I found the setting tables
-    * On the setting for the repository scroll down to find the github pages section
-    * Selected the Masterbranch from the sources section.
+  * Navigated to my respository
+  * In the top right corner of the page I found the setting tables
+  * On the setting for the repository scroll down to find the github pages section
+  * Selected the Masterbranch from the sources section.
+  * Clicked to confirm and the page became live on github pages.
+
+  2. Cloning:
+  * Navigate to repository
+  * Click the clone/download button and copy link
+  * Using IDE (git) open terminal and copy link into terminal.
+
+# Credits:
+* [rooftop-silhouette](https://ya-webdesign.com/explore/roof-clipart-silhouette/)
+* [flower-clipart](http://clipart-library.com/clipart/1841383.htm)
+* [dessert-menu-image](https://www.independent.co.uk/life-style/food-and-drink/unhealthiest-chain-restaurant-desserts-britain-puddings-wetherspoon-toby-carvery-harvester-a7489171.html)
+* [lunch-menu-image](https://www.seriouseats.com/recipes/2014/12/the-best-slow-cooked-bolognese-sauce-recipe.html)
+* [dinner-menu-image](https://www.foodtolove.co.nz/recipes/roast-pork-belly-with-caramelised-apples-13622)
+* [restaurant-interior-images](https://suitcasemag.com/travel/explore/londons-best-outdoor-restaurants/#jp-carousel-80754)
+* [restaurant-interior-images](https://gemlowes.com/2018/07/04/the-ivy-chelsea-garden/)
+* [trip-advisor-logo](https://aboutmanchester.co.uk/tripadvisor-fails-to-stop-highest-ranked-hotels-being-boosted-by-fake-reviews-which-finds/)
+* [review-card-profile-image](https://www.facebook.com/ProfilePictures/)
+* [javascript-later-removed](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click)
+
+# Closing Notes:
+Given that this was my first independent project I primarly used Bootstrap for a lot of the project. I generally found the documentation well laid out but found through my own lack of experience a lot of my time was spent attempting trial and error with code.
+A lot of my time in this project was just adjusting small details which happen to differ on wider media screens. Overall I am quite pleased with the project. Upon further review I now have a lot of new ideas that I would like to implement or do differently.
+I am just hoping to take away some of the key aspects from the challenge which is to focus on indenetation of code and general organisation of code rather than allowing things to become messy and difficult to read.
+
+This project was created only for educational purposes.
